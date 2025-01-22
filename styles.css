@@ -1,0 +1,181 @@
+/*common start */
+body {
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* common end */
+/* header sart */
+header {
+   
+    padding: 10px 0;
+    border-bottom: 3px solid #EEF0F3; 
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: blue;
+   /* border: 1px;*/
+   float: left;
+}
+.menu{
+ margin-top: 3px;
+  width: 45%;
+  /*border: 1px ;*/
+  float: right;
+}
+.menu ul {
+
+   
+    float: right;
+}
+
+.menu ul li {
+
+    margin-left: 20px;
+    list-style: none;
+
+    float: left;
+}
+
+.menu ul li a {
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #0F2656;
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 20px;
+    /*color: #333;*/
+}
+.menu ul li:last-child a{
+    margin-right: 0;
+}
+/* header ending */
+/* banner start */
+.banner {
+    text-align: center;
+    padding: 50px 0;
+}
+.container2{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.container2 h1 {
+    font-size: 45px;
+    margin-bottom: 0;
+}
+
+.container2 h2 {
+    margin: 10px 0;
+    font-size: 45px;
+    color: #007bff;
+}
+
+.container2 p {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 18px;
+
+    color: #0F2656;
+    margin-bottom: 40px;
+    line-height: 22px;
+}
+.b_image{
+    margin: 0 auto;
+    width: 55%;
+}
+.b_image img {
+    max-width: 100%;
+    /*height: auto;*/
+}
+
+.success{
+   /* background: #f9f9f9;*/
+    padding: 60px 0;
+}
+.s_content{
+    overflow: hidden;
+    font-family: sans-serif;
+}
+
+.s_left{
+    width: 40%;
+    float: left;
+    text-align: right;
+    padding: 0 10px 0px 20px;
+}
+.s_left h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #F15767;
+    margin:0 0 10px;
+}
+.s_left p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #0F2656;
+}
+.s_right{
+    width: 50%;
+    float: right;
+    padding: 0 20px 0 10px;
+}
+.s_right h1{
+    font-size: 50px;
+    font-weight: 550;
+    color: #0F2656;
+    line-height: 50px;
+    margin: 0;
+}
+
+
+.project-cards {
+        display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.card {
+    
+    padding: 20px;
+    text-align: center;
+    
+    width: 100%;
+}
+
+.card img {
+
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+footer {
+    background: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer span {
+    font-weight: bold;
+}
